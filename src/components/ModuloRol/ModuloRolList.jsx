@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../../App';
-
+import './rol.css'
 
 const ModuloRolList = () => {
   const [moduloRoles, setModuloRoles] = useState([]);

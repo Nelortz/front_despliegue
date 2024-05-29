@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../../App';
+import './per.css'
 
 
 const PersonaList = () => {
@@ -20,7 +21,7 @@ const PersonaList = () => {
 
   return (
     <div className='modulo-vista-container'>
-      <h1>Personas</h1>
+      <h1 className = 'titulo'>Personas</h1>
       <table>
         <tbody>
           <td>
