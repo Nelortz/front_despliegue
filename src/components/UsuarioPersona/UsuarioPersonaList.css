@@ -1,0 +1,114 @@
+/* Estilos para la lista de usuarios y personas */
+.usuario-persona-list {
+    width: 80%;
+    margin: 10 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .usuario-persona-list h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .usuario-persona-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .usuario-persona-table th,
+  .usuario-persona-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .usuario-persona-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .usuario-persona-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .usuario-persona-table tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Estilos para el formulario de UsuarioPersona */
+.usuario-persona-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .usuario-persona-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .usuario-persona-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .usuario-persona-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .usuario-persona-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .usuario-persona-form button:hover {
+    background-color: #45a049;
+  }
+
+  /* Estilos para los detalles de UsuarioPersona */
+.usuario-persona-details {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .usuario-persona-details h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .usuario-persona-details p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .usuario-persona-details strong {
+    color: #000;
+  }
+  
+  

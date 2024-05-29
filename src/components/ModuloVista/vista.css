@@ -1,0 +1,69 @@
+
+  /* Estilos para el contenedor del formulario */
+.modulo-vista-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para los elementos del formulario */
+  .modulo-vista-form h2 {
+    margin-top: 0;
+  }
+  
+  .modulo-vista-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modulo-vista-form label {
+    margin-bottom: 5px;
+  }
+  
+  .modulo-vista-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .modulo-vista-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .modulo-vista-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .modulo-vista-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .modulo-vista-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .modulo-vista-list li:hover {
+    background-color: #f0f0f0;
+  }
+
+  .modulo-vista-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }

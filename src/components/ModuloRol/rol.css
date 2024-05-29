@@ -1,0 +1,37 @@
+.modulo-roles-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .modulo-roles-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .modulo-roles-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .modulo-roles-list li:hover {
+    background-color: #f0f0f0;
+  }
+
+  .modulo-rol-details {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .modulo-rol-details p {
+    margin-bottom: 10px;
+  }
+  

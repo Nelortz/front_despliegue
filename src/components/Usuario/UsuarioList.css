@@ -1,0 +1,121 @@
+/* Estilos para la lista de usuarios */
+.usuario-list {
+    width: 80%;
+    margin: 10 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .usuario-list h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .usuario-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .usuario-list table, .usuario-list th, .usuario-list td {
+    border: 1px solid #ddd;
+  }
+  
+  .usuario-list th, .usuario-list td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .usuario-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .usuario-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .usuario-list tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Estilos para el formulario de usuario */
+.usuario-form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .usuario-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .usuario-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .usuario-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .usuario-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .usuario-form button:hover {
+    background-color: #45a049;
+  }
+
+  
+  /* Estilos para los detalles del usuario */
+.usuario-details {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .usuario-details h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .usuario-details p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .usuario-details p strong {
+    color: #333;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 20px;
+    color: #999;
+  }
+  
+  

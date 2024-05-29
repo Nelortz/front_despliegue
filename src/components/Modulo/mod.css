@@ -1,0 +1,40 @@
+/* moduloForm.css */
+#moduloForm {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#moduloForm div {
+    margin-bottom: 10px;
+}
+
+#moduloForm label {
+    display: block;
+    font-weight: bold;
+}
+
+#moduloForm input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#moduloForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#moduloForm button:hover {
+    background-color: #0056b3;
+}
