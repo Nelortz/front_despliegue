@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../../App';
-import "./"
+
 
 const PersonaList = () => {
   const [personas, setPersonas] = useState([]);
